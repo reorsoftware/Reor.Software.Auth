@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Reor.Software.Auth\Reor.Software.Auth.csproj" />
+  <Project Path="Reor.Software.Auth.Tests\Reor.Software.Auth.Tests.csproj" />
+  <Folder Name="/Solution Items/">
+    <File Path=".github\workflows\publish.yml" />
+    <File Path=".gitignore" />
+  </Folder>
+</Solution>
