@@ -4,5 +4,7 @@
   <Folder Name="/Solution Items/">
     <File Path=".github\workflows\publish.yml" />
     <File Path=".gitignore" />
+    <File Path="README.md" />
+    <File Path="LICENSE" />
   </Folder>
 </Solution>

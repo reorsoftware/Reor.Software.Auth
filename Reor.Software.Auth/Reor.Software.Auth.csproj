@@ -5,7 +5,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PackageId>Reor.Software.Auth</PackageId>
+    <Title>Reor Software Auth</Title>
+    <Authors>Reor Software</Authors>
+    <Description>Reusable ASP.NET Core authentication, authorization, and OpenAPI security extensions for Reor internal APIs.</Description>
+    <PackageTags>reor authentication authorization openapi aspnetcore</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © Reor Software</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.12" />
